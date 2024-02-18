@@ -3,4 +3,4 @@ RUN mkdir -p /opt/app
 WORKDIR /opt/app
 COPY package.json .
 EXPOSE 3000
-CMD [ "node", "index.js"]
+CMD [ "node", "start"]

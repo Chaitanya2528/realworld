@@ -1,8 +1,7 @@
-FROM node:latest
+FROM node:12.2.0-alpine
 WORKDIR app
 COPY . .
 RUN npm install
-RUN npm install --package-lock-only
-RUN npm install uuid@latest
+RUN npm run test
 EXPOSE 8000
-CMD [ "npm", "start"]
+CMD ["node","start"]

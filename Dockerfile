@@ -4,4 +4,4 @@ COPY package*.json ./
 RUN npm install -g npm@latest
 RUN npm install -g @nrwl/cli
 EXPOSE 8000
-CMD ["node","webpack.config.js"]
+CMD ["node","apps/api/webpack.config.js"]

@@ -11,7 +11,7 @@ COPY package*.json ./
 RUN npm install -g npm@latest
 
 
-RUN npm install --save-dev @nrwl/cli
+
 RUN nx build
 RUN npm install -g @nrwl/cli
 

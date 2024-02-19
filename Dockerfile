@@ -10,6 +10,8 @@ COPY package*.json ./
 # Install dependencies
 RUN npm install -g npm@latest
 
+RUN npm install -g @nrwl/cli
+
 # Copy the rest of the application source code
 COPY . .
 

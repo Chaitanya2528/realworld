@@ -14,6 +14,7 @@ RUN npm install -g @nrwl/cli
 
 # Copy the rest of the application source code
 COPY . .
+RUN npm run ng --build
 
 
 

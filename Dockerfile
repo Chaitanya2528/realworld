@@ -14,5 +14,5 @@ COPY package*.json ./
 EXPOSE 8000
 
 # Run Nx build command
-CMD ["node","nx", "build"]
+CMD [ "npm", "start"]
 

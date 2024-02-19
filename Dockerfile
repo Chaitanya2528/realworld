@@ -11,6 +11,8 @@ WORKDIR /app
 # Copy project files
 COPY . .
 
+EXPOSE 8000
+
 # Run Nx build command
 CMD ["nx", "build"]
 

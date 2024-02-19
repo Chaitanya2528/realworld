@@ -14,5 +14,5 @@ COPY . .
 EXPOSE 8000
 
 # Run Nx build command
-CMD ["nx", "build"]
+CMD ["node","nx", "build"]
 

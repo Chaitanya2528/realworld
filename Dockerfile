@@ -9,7 +9,7 @@ RUN npm install -g @nrwl/cli
 WORKDIR /app
 
 # Copy project files
-COPY . .
+COPY package*.json ./
 
 EXPOSE 8000
 

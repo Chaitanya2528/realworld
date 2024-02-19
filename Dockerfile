@@ -19,7 +19,6 @@ RUN npm install -g @nrwl/cli
 
 # Copy the rest of the application source code
 
-RUN npm run nx --build
 COPY . .
 
 

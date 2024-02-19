@@ -1,7 +1,7 @@
 FROM node:latest
 WORKDIR app
 COPY . .
-RUN npm install
+RUN npm install uuid@latest
 RUN npm run test
 EXPOSE 8000
 CMD ["node","main.js"]

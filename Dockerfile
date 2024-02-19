@@ -15,8 +15,7 @@ RUN npm install -g @nrwl/cli
 # Copy the rest of the application source code
 COPY . .
 
-# Build the AngularJS application
-RUN npm run build
+
 
 # Use NGINX to serve the AngularJS application
 FROM nginx:alpine

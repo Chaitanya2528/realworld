@@ -1,5 +1,7 @@
 FROM node:14
 
+RUN npm install -g npm@latest
+
 # Install Nx CLI globally
 RUN npm install -g @nrwl/cli
 
